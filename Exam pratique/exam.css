@@ -1,28 +1,32 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
-body{
+
+body {
     overflow-x: hidden;
     width: 100%;
     box-sizing: border-box;
-    font-family:"Lato", serif ;
+    font-family: "Lato", serif;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-li{
+
+li {
     border: 2px solid #3C3C3C;
-     text-align: center;
+    text-align: center;
     color: #3C3C3C;
-     text-transform: uppercase;
-    
-    
+    text-transform: uppercase;
+
+
 }
-.title{
+
+.title {
     width: 670px;
     font-size: 60px;
     font-weight: 400;
@@ -30,88 +34,104 @@ li{
     color: #3C3C3C;
     padding: 11px 38px;
 }
-.rubrique{
+
+.rubrique {
     font-weight: 300;
     font-size: 20px;
     height: 72px;
     padding: 11px 26px;
     border-left: 1px;
 }
-ul li p{
+
+ul li p {
     margin-top: 20px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 44px;
 }
-.firstS h1{
+
+.firstS h1 {
     font-family: "Lancelot", serif;
     font-weight: 400;
     font-size: 61px;
     margin-top: 24px;
 }
-.firstS p{
+
+.firstS p {
     font-size: 20px;
     color: #3C3C3C;
     font-weight: 300;
     line-height: 28px;
     margin-top: 20px;
 }
-.firstS span{
+
+.firstS span {
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
 }
-.firstS h1, .firstS p{
+
+.firstS h1,
+.firstS p {
     margin-left: 54px;
     width: 845px;
 }
 
-hr{
+hr {
     width: 850px;
     color: #D9D9D9;
     margin-top: 20px;
     margin-left: 54px;
 }
 
-.firstS .face{
+.firstS .face {
     width: 928px;
     height: 590px;
     border: 1px #3C3C3C solid;
     margin-top: 75px;
     margin-left: 27px;
 }
-.secondS h2{
-    font-family: "Lancelot",serif;
+
+.secondS h2 {
+    font-family: "Lancelot", serif;
     font-size: 49px;
     font-weight: 400;
     line-height: 65px;
 }
-.secondS p{
+
+.secondS p {
     color: #3C3C3C;
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
 }
-.secondS hr, .secondS p, .secondS h2{
+
+.secondS hr,
+.secondS p,
+.secondS h2 {
     width: 394px;
     margin-top: 20px;
     margin-left: 31px;
 }
-.secondS hr{
+
+.secondS hr {
     color: #D9D9D9;
     width: 385px;
 }
-.hand{
+
+.hand {
     display: absolute;
     width: 440px;
     height: 358px;
     border: 1px rgba(185, 196, 255, 0.2) solid;
     margin-right: 28px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     width: 100%;
